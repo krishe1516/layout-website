@@ -1,108 +1,179 @@
 *{
     margin: 0px;
     padding: 0px;
-    color: rgb(52, 81, 81);
 }
 main{
     height: 100vh;
+    background-color: brown;
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
-    flex-wrap: wrap;
 }
 header{
+    flex-grow: 1;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    flex-grow: 1;
     background-color: blue;
-    flex-grow: .7;
+
+}
+.nav{
+    flex-grow: 1;
+    background-color: bisque;
     display: flex;
     flex-direction: row;
-}
-.media{
-    background-color: coral;
-    flex-grow: 2;
 }
 .navbar{
-    background-color: hotpink;
-    flex-grow: 2;
+    flex-grow: 1;
+background-color: brown;
+}
+.menu{
+    flex-grow: 4;
+    background-color: rgb(92, 219, 97);
+    
 }
 content{
-    background-color: brown;
-    flex-grow: 5;
+    background-color: rgb(100, 41, 155);
+    flex-grow: 7;
     display: flex;
+    flex-direction: row;
 }
-.left{
-    flex-grow: .5;
-    background-color: rgb(221, 1, 255);
+.aside{
+    flex-grow: 1;
+background-color: blueviolet;
+}
+.img{
+    flex-grow: 1;
+    background-color: rgb(44, 9, 77);
+}
+.cards{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding:0px 50px;
+}
+.card-head{
     display: flex;
     flex-direction: column;
+    margin: 20px;
+   
+    text-align: center;
+   font-size: 20px;
 }
-.one{
-    flex-grow: 1;
-    background-color: rgb(255, 238, 1);
-}
-.two{
-    flex-grow: 1;
-    background-color: rgb(220, 64, 245);
-}
-.three{
-    flex-grow: 1;
-    background-color: rgb(1, 22, 255);
-}
-.four{
-    flex-grow: 1;
-    background-color: rgb(255, 1, 1);
+.first{
+background-color: darkorange;
+flex-grow: 1;
+margin: 70px ;
 
 }
-.middle{
+.second{
+    background-color: darkorange;
     flex-grow: 1;
-    background-color: rgb(234, 20, 88);
+    margin: 70px;
+}
+.third{
+    background-color: darkorange;
+    flex-grow: 1;
+    margin: 70px;
+}
+
+.aboutapp{
+    height: 100vh;
+display: flex;
+flex-direction: row;
+background-color: crimson;
+}
+
+.about{
+flex-grow: 1;
+background-color: beige;
+}
+.appcontent{
+    flex-grow: 1;
+}
+
+.review{
+    height: 80vh;
+    background-color: deepskyblue;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    justify-content: center;
+    
 }
-.top{
+.preview{
+    background-color: blue;
     flex-grow: 1;
-    background-color: rgb(37, 17, 17);
-    display: flex;
-    flex-direction: row;
-}
-.top-one{
-    flex-grow: 1;
-    background-color: rgb(255, 1, 1);
-}
-.top-two{
-    flex-grow: 1;
-    background-color: rgb(38, 178, 89);
-}
-.bottom{
-    flex-grow: 1;
-    background-color: rgb(255, 1, 1);
-    display: flex;
-    flex-direction: row;
-}
-.bottom-one{
-    flex-grow: 1;
-    background-color: rgb(15, 27, 82);
-}
-.bottom-two{
-    flex-grow: 1;
-    background-color: rgb(83, 46, 8);
-}
-.right{
-    flex-grow: .5;
-    background-color: rgb(16, 172, 239);
-    display: flex;
-    flex-direction: row;
+
 
 }
-.artone{
-    flex-grow: .5;
-    background-color: rgb(64, 75, 80);
-}
-.arttwo{
-    flex-grow: .5;
-    background-color: rgb(16, 172, 239);
-}
-footer{
-    background-color: rgb(241, 136, 7);
-    flex-grow: .5;
+.people{
     display: flex;
+    flex-direction:row;
+    flex-grow:4 ;
+
+}
+.rcard1{
+    background-color: blue;
+    flex-grow: 1;
+    margin: 70px;
+   
+}
+.rcard2{
+    background-color:blue;
+    flex-grow: 1;
+    margin: 70px;   
+}
+.rcard3{
+    background-color: blue;
+    flex-grow: 1;
+    margin: 70px;
+}
+.plan{
+    height: 90vh;
+display: flex;
+flex-direction: column;
+}
+.plan1{
+    flex-grow: 1;
+background-color: firebrick;
+}
+.plan2{
+flex-grow:6 ;
+display: flex;
+flex-direction: row;
+}
+.pcard1{
+flex-grow: 1;
+background-color:rgb(84, 226, 245) ;
+margin: 40px;
+}
+.pcard2{
+    flex-grow: 1;
+    background-color:rgb(84, 226, 245) ;
+    margin: 40px;
+}
+.pcard3{
+    flex-grow: 1;
+    background-color:rgb(84, 226, 245) ;
+    margin: 40px;
+}
+.form{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    background-color: darkseagreen;
+
+}
+.f-img{
+flex-grow: 1.5;
+background-color: coral;
+}
+.f-form{
+    margin: 30px 70px;
+    flex-grow: 1;
+    background-color: coral;
 }
